@@ -23,7 +23,7 @@ namespace TM_Simulator
         private void menu_Click(object sender, EventArgs e)
         {
             cl = false;
-            SystemMenu sysmenu = new SystemMenu();
+            SystemMenu sysmenu = new();
             sysmenu.Show();
             this.Close();
         }
@@ -37,7 +37,7 @@ namespace TM_Simulator
         private void TittlePage2_Click(object sender, EventArgs e)
         {
             cl = false;
-            TittlePage tittle = new TittlePage();
+            TittlePage tittle = new();
             tittle.Show();
             this.Close();
         }
